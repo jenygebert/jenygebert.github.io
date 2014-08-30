@@ -1,0 +1,25 @@
+.inhalt-header-1{
+	font-family: $caption;
+	font-weight: bold;
+	color: $content-font;
+	margin: 10px 0px;
+	text-shadow: 1px 2px 2px #000;
+	width: 100%;
+	text-align: center;
+}
+#portrait{
+	width: 50%;
+}
+.artikel-2{
+	font-family: $caption;
+	color: $content-font;
+}
+#ueber{
+	margin-top: 5px;
+}
+#ueber > li{
+	list-style: none;
+	padding: 4px;
+	text-shadow: 1px 2px 2px #000;
+	text-align: center;
+}

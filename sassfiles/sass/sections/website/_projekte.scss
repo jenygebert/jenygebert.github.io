@@ -1,0 +1,22 @@
+.images{
+	text-align: center;
+	
+	li{
+	display: inline-block;
+    list-style: none outside none;
+	margin: 10px;
+	box-shadow: 1px 2px 2px #000;
+}
+}
+.description{
+	font-family: $caption;
+	color: $content-font;
+	text-shadow: 1px 2px 2px #000;
+	text-align: center;
+	margin: 10px 0px;
+	padding: 4px;
+}
+.images > li a:hover img{
+	@include scale(1.05);
+	box-shadow: 1px 2px 2px #000;
+}

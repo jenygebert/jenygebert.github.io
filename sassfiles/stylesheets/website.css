@@ -1,0 +1,557 @@
+@charset "CP850";
+/*KONFIGURATION*/
+/*MEDIA QUERIES*/
+/*SCHRIFTEN*/
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,900");
+@import url("http://fonts.googleapis.com/css?family=Satisfy");
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
+/*FARBEN-BENENNUNG*/
+/*FARBEN-EINSATZ*/
+/*INTERFACE*/
+/*MIXINS*/
+/*BOOTSTRAP ÜBERSCHREIBEN*/
+/* line 1, ../sass/vendor/overrides/_override_twb.scss */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 5, ../sass/vendor/overrides/_override_twb.scss */
+.container {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+/*HEADER*/
+/* line 1, ../sass/abstracts/base/_header.scss */
+#header {
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+
+/* line 8, ../sass/abstracts/base/_header.scss */
+#spruch > p {
+  font-family: "Satisfy", cursive;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+/* line 14, ../sass/abstracts/base/_header.scss */
+#author {
+  font-size: 15px;
+}
+
+/*MENÜ*/
+/* line 1, ../sass/abstracts/base/_nav.scss */
+#navigation {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 5, ../sass/abstracts/base/_nav.scss */
+nav {
+  width: 100%;
+  background-color: white;
+  opacity: 0.8;
+}
+
+/* line 10, ../sass/abstracts/base/_nav.scss */
+#bestandteile {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+/* line 14, ../sass/abstracts/base/_nav.scss */
+#bestandteile li {
+  list-style: none;
+  margin-left: -11px;
+  padding: 10px;
+  display: block;
+}
+/* line 20, ../sass/abstracts/base/_nav.scss */
+#bestandteile li a {
+  font-family: "PT Sans Caption", sans-serif;
+  color: #2e2e2e;
+  text-decoration: none;
+}
+
+/* line 27, ../sass/abstracts/base/_nav.scss */
+#bestandteile > li > a:hover {
+  background-color: #3399cc;
+  text-decoration: none;
+  color: white;
+  padding: 9px;
+}
+
+/*INHALT, ARTIKEL*/
+/* line 1, ../sass/abstracts/base/_content.scss */
+#content {
+  margin: 50px;
+}
+
+/* line 4, ../sass/abstracts/base/_content.scss */
+#inhaltwrapper {
+  background-color: #3399cc;
+  opacity: 0.8;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* line 11, ../sass/abstracts/base/_content.scss */
+.inhalt {
+  padding: 5px;
+}
+
+/* line 14, ../sass/abstracts/base/_content.scss */
+.inhalt-header {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0px;
+  text-shadow: 1px 2px 2px #000;
+}
+
+/* line 21, ../sass/abstracts/base/_content.scss */
+.artikel-1 {
+  font-family: "PT Sans Caption", sans-serif;
+  color: white;
+  text-shadow: 1px 2px 2px #000;
+}
+
+/* line 26, ../sass/abstracts/base/_content.scss */
+#absatz-1 {
+  margin-bottom: 5px;
+}
+
+/* line 29, ../sass/abstracts/base/_content.scss */
+#absatz-2 {
+  text-align: right;
+}
+
+/*FOOTER*/
+/* line 1, ../sass/abstracts/base/_footer.scss */
+#footer, #footer-1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+/* line 9, ../sass/abstracts/base/_footer.scss */
+#footerinput {
+  font-family: "Satisfy", cursive;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+/*EINZELNE SEITEN*/
+/* line 1, ../sass/sections/website/_ueber_mich.scss */
+.inhalt-header-1 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0px;
+  text-shadow: 1px 2px 2px #000;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 10, ../sass/sections/website/_ueber_mich.scss */
+#portrait {
+  width: 50%;
+}
+
+/* line 13, ../sass/sections/website/_ueber_mich.scss */
+.artikel-2 {
+  font-family: "PT Sans Caption", sans-serif;
+  color: white;
+}
+
+/* line 17, ../sass/sections/website/_ueber_mich.scss */
+#ueber {
+  margin-top: 5px;
+}
+
+/* line 20, ../sass/sections/website/_ueber_mich.scss */
+#ueber > li {
+  list-style: none;
+  padding: 4px;
+  text-shadow: 1px 2px 2px #000;
+  text-align: center;
+}
+
+/* line 1, ../sass/sections/website/_technologien.scss */
+#technologien-1 > li, #technologien-2 > li {
+  list-style: none;
+  font-family: "PT Sans Caption", sans-serif;
+  color: white;
+  text-shadow: 1px 2px 2px #000;
+  padding: 4px 20px;
+  text-align: center;
+}
+
+/* line 1, ../sass/sections/website/_projekte.scss */
+.images {
+  text-align: center;
+}
+/* line 4, ../sass/sections/website/_projekte.scss */
+.images li {
+  display: inline-block;
+  list-style: none outside none;
+  margin: 10px;
+  box-shadow: 1px 2px 2px #000;
+}
+
+/* line 11, ../sass/sections/website/_projekte.scss */
+.description {
+  font-family: "PT Sans Caption", sans-serif;
+  color: white;
+  text-shadow: 1px 2px 2px #000;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 4px;
+}
+
+/* line 19, ../sass/sections/website/_projekte.scss */
+.images > li a:hover img {
+  Transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  /* IE 9 */
+  -moz-transform: scale(1.05);
+  /* Firefox */
+  -webkit-transform: scale(1.05);
+  /* Safari and Chrome */
+  -o-transform: scale(1.05);
+  /* Opera */
+  box-shadow: 1px 2px 2px #000;
+}
+
+/* line 1, ../sass/sections/website/_kontakt.scss */
+#absatz-3 {
+  font-family: "Satisfy", cursive;
+  font-size: 17px;
+  color: white;
+  margin-bottom: 5px;
+  text-shadow: 1px 2px 2px #000;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 768px) {
+  /* line 2, ../sass/sections/website/queries/_tablet.scss */
+  #spruch > p {
+    font-size: 30px;
+  }
+
+  /* line 5, ../sass/sections/website/queries/_tablet.scss */
+  #author {
+    font-size: 23px;
+  }
+
+  /* line 8, ../sass/sections/website/queries/_tablet.scss */
+  nav {
+    width: 80%;
+  }
+
+  /* line 11, ../sass/sections/website/queries/_tablet.scss */
+  li > a {
+    font-size: 16px;
+  }
+
+  /* line 14, ../sass/sections/website/queries/_tablet.scss */
+  #inhaltwrapper {
+    margin-top: 0px;
+    width: 50%;
+    float: left;
+  }
+
+  /* line 19, ../sass/sections/website/queries/_tablet.scss */
+  .inhalt-header, #absatz-1, #absatz-2 {
+    font-size: 16px;
+  }
+
+  /* line 22, ../sass/sections/website/queries/_tablet.scss */
+  #footerinput {
+    font-size: 23px;
+  }
+
+  /*UEBER MICH*/
+  /* line 27, ../sass/sections/website/queries/_tablet.scss */
+  #portrait {
+    width: 50%;
+  }
+
+  /* line 30, ../sass/sections/website/queries/_tablet.scss */
+  #ueber > li {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  /*TECHNOLOGIEN*/
+  /* line 36, ../sass/sections/website/queries/_tablet.scss */
+  .inhalt-header-1 {
+    font-size: 16px;
+  }
+
+  /* line 39, ../sass/sections/website/queries/_tablet.scss */
+  #technologien-1 > li, #technologien-2 > li {
+    font-size: 16px;
+  }
+
+  /*PROJEKTE*/
+  /* line 44, ../sass/sections/website/queries/_tablet.scss */
+  .description {
+    font-size: 16px;
+  }
+
+  /*KONTAKT*/
+  /* line 49, ../sass/sections/website/queries/_tablet.scss */
+  #absatz-3 {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 980px) {
+  /* line 2, ../sass/sections/website/queries/_laptop.scss */
+  #spruch > p {
+    font-size: 35px;
+  }
+
+  /* line 5, ../sass/sections/website/queries/_laptop.scss */
+  #author {
+    font-size: 28px;
+  }
+
+  /* line 8, ../sass/sections/website/queries/_laptop.scss */
+  nav {
+    width: 70%;
+  }
+
+  /* line 11, ../sass/sections/website/queries/_laptop.scss */
+  li > a {
+    font-size: 16px;
+  }
+
+  /* line 14, ../sass/sections/website/queries/_laptop.scss */
+  #inhaltwrapper {
+    margin-top: 0px;
+    width: 50%;
+    float: left;
+  }
+
+  /* line 19, ../sass/sections/website/queries/_laptop.scss */
+  .inhalt-header, #absatz-1, #absatz-2 {
+    font-size: 16px;
+  }
+
+  /* line 22, ../sass/sections/website/queries/_laptop.scss */
+  #footerinput {
+    font-size: 28px;
+  }
+
+  /*UEBER MICH*/
+  /* line 27, ../sass/sections/website/queries/_laptop.scss */
+  #portrait {
+    width: 50%;
+  }
+
+  /* line 30, ../sass/sections/website/queries/_laptop.scss */
+  #ueber > li {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  /*TECHNOLOGIEN*/
+  /* line 36, ../sass/sections/website/queries/_laptop.scss */
+  .inhalt-header-1 {
+    font-size: 16px;
+  }
+
+  /* line 39, ../sass/sections/website/queries/_laptop.scss */
+  #technologien-1 > li, #technologien-2 > li {
+    font-size: 16px;
+  }
+
+  /*PROJEKTE*/
+  /* line 44, ../sass/sections/website/queries/_laptop.scss */
+  .description {
+    font-size: 16px;
+  }
+
+  /*KONTAKT*/
+  /* line 49, ../sass/sections/website/queries/_laptop.scss */
+  #absatz-3 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  /* line 2, ../sass/sections/website/queries/_desktop.scss */
+  #spruch > p {
+    font-size: 35px;
+  }
+
+  /* line 5, ../sass/sections/website/queries/_desktop.scss */
+  #author {
+    font-size: 28px;
+  }
+
+  /* line 8, ../sass/sections/website/queries/_desktop.scss */
+  nav {
+    width: 70%;
+  }
+
+  /* line 11, ../sass/sections/website/queries/_desktop.scss */
+  li > a {
+    font-size: 18px;
+  }
+
+  /* line 14, ../sass/sections/website/queries/_desktop.scss */
+  #inhaltwrapper {
+    margin-top: 0px;
+    width: 60%;
+  }
+
+  /* line 18, ../sass/sections/website/queries/_desktop.scss */
+  .inhalt-header {
+    font-size: 18px;
+  }
+
+  /* line 21, ../sass/sections/website/queries/_desktop.scss */
+  #absatz-1, #absatz-2 {
+    font-size: 18px;
+  }
+
+  /* line 24, ../sass/sections/website/queries/_desktop.scss */
+  #footer-1 {
+    position: relative;
+  }
+
+  /* line 27, ../sass/sections/website/queries/_desktop.scss */
+  #footerinput {
+    font-size: 28px;
+  }
+
+  /*UEBER MICH*/
+  /* line 32, ../sass/sections/website/queries/_desktop.scss */
+  #portrait {
+    width: 30%;
+  }
+
+  /* line 35, ../sass/sections/website/queries/_desktop.scss */
+  #ueber > li {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  /*TECHNOLOGIEN*/
+  /* line 41, ../sass/sections/website/queries/_desktop.scss */
+  .inhalt-header-1 {
+    font-size: 20px;
+  }
+
+  /* line 44, ../sass/sections/website/queries/_desktop.scss */
+  #technologien-1 > li, #technologien-2 > li {
+    font-size: 18px;
+  }
+
+  /*PROJEKTE*/
+  /* line 49, ../sass/sections/website/queries/_desktop.scss */
+  .description {
+    font-size: 18px;
+  }
+
+  /*KONTAKT*/
+  /* line 54, ../sass/sections/website/queries/_desktop.scss */
+  #absatz-3 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  /* line 2, ../sass/sections/website/queries/_desktoplarge.scss */
+  #spruch > p {
+    font-size: 45px;
+  }
+
+  /* line 5, ../sass/sections/website/queries/_desktoplarge.scss */
+  #author {
+    font-size: 38px;
+  }
+
+  /* line 8, ../sass/sections/website/queries/_desktoplarge.scss */
+  nav {
+    width: 60%;
+  }
+
+  /* line 11, ../sass/sections/website/queries/_desktoplarge.scss */
+  li > a {
+    font-size: 20px;
+  }
+
+  /* line 14, ../sass/sections/website/queries/_desktoplarge.scss */
+  #inhaltwrapper {
+    margin-top: 0px;
+    width: 60%;
+    float: left;
+  }
+
+  /* line 19, ../sass/sections/website/queries/_desktoplarge.scss */
+  .inhalt-header {
+    font-size: 20px;
+  }
+
+  /* line 22, ../sass/sections/website/queries/_desktoplarge.scss */
+  #absatz-1, #absatz-2 {
+    font-size: 20px;
+  }
+
+  /* line 25, ../sass/sections/website/queries/_desktoplarge.scss */
+  #footer-1 {
+    position: relative;
+  }
+
+  /* line 28, ../sass/sections/website/queries/_desktoplarge.scss */
+  #footerinput {
+    font-size: 38px;
+  }
+
+  /*UEBER MICH*/
+  /* line 33, ../sass/sections/website/queries/_desktoplarge.scss */
+  #portrait {
+    width: 30%;
+  }
+
+  /* line 36, ../sass/sections/website/queries/_desktoplarge.scss */
+  #ueber > li {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  /*TECHNOLOGIEN*/
+  /* line 42, ../sass/sections/website/queries/_desktoplarge.scss */
+  .inhalt-header-1 {
+    font-size: 22px;
+  }
+
+  /* line 45, ../sass/sections/website/queries/_desktoplarge.scss */
+  #technologien-1 > li, #technologien-2 > li {
+    font-size: 20px;
+  }
+
+  /*PROJEKTE*/
+  /* line 50, ../sass/sections/website/queries/_desktoplarge.scss */
+  .description {
+    font-size: 20px;
+  }
+
+  /*KONTAKT*/
+  /* line 55, ../sass/sections/website/queries/_desktoplarge.scss */
+  #absatz-3 {
+    font-size: 38px;
+  }
+}

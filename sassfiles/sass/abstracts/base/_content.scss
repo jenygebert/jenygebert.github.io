@@ -1,0 +1,31 @@
+#content{
+	margin: 50px;
+}
+#inhaltwrapper{
+	background-color: $content-background;
+	opacity: 0.8;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+.inhalt{
+	padding: 5px;
+}
+.inhalt-header{
+	font-family: $caption;
+	font-weight: bold;
+	color: $content-font;
+	margin: 10px 0px;
+	text-shadow: 1px 2px 2px #000;
+}
+.artikel-1{
+	font-family: $caption;
+	color: $content-font;
+	text-shadow: 1px 2px 2px #000;
+}
+#absatz-1{
+	margin-bottom: 5px;
+}
+#absatz-2{
+	text-align: right;
+}

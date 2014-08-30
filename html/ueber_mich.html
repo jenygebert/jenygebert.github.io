@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta lang="de" name="author" content="Eugenia">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="bower_components/sass-bootstrap-compass/dist/css/sass-bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.css">
-		<link rel="stylesheet" type="text/css" href="sassfiles/stylesheets/website.css">
-		<script type="text/javascript" src="../jenys_website/bower_components/jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="../jenys_website/bower_components/jquery-backstretch/jquery.backstretch.js"></script> 
+		<link rel="stylesheet" type="text/css" href="../bower_components/sass-bootstrap-compass/dist/css/sass-bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/fontawesome/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../sassfiles/stylesheets/website.css">
+		<script type="text/javascript" src="../../jenys_website/bower_components/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../../jenys_website/bower_components/jquery-backstretch/jquery.backstretch.js"></script> 
 		<title>Willkommen!</title>
 	</head>
 	<body>
@@ -29,19 +29,19 @@
 						<nav class="menu">
 							<ul id="bestandteile"><i class="fa fa-navicon fa-2x"></i>
 								<li class="active home" title="Home">
-									<a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+									<a href="../index.html"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
 								</li>
 								<li class="ueber" title="Über mich">
-									<a href="html/ueber_mich.html"><i class="fa fa-female fa-fw"></i>&nbsp; Über mich</a>
+									<a href="#"><i class="fa fa-female fa-fw"></i>&nbsp; Über mich</a>
 								</li>
 								<li class="technologien" title="Technologien">
-									<a href="html/technologien.html"><i class="fa fa-cog fa-fw"></i>&nbsp; Technologien</a>
+									<a href="technologien.html"><i class="fa fa-cog fa-fw"></i>&nbsp; Technologien</a>
 								</li>
 								<li class="projekte" title="Projekte">
-									<a href="html/projekte.html"><i class="fa fa-pencil fa-fw"></i>&nbsp; Projekte</a>
+									<a href="projekte.html"><i class="fa fa-pencil fa-fw"></i>&nbsp; Projekte</a>
 								</li>
 								<li class="kontakt" title="Kontakt">
-									<a href="html/kontakt.html"><i class="fa fa-envelope fa-fw"></i>&nbsp; Kontakt</a>
+									<a href="kontakt.html"><i class="fa fa-envelope fa-fw"></i>&nbsp; Kontakt</a>
 								</li>
 							</ul>
 						</nav>
@@ -49,17 +49,23 @@
 				</div>
 				<div id="inhaltwrapper" class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
 					<section class="inhalt">
-						<header class="inhalt-header">
-							<p>Herzlich willkommen auf meiner Homepage!</p>
+						<header class="inhalt-header-1">
+							<img id="portrait" src="../images/jeny_kreis1.png" />
 						</header>
-						<article class="artikel-1">
-							<p id="absatz-1">Diese Seite habe ich zu Bewerbungszwecken erstellt. Hier kann sich jeder ein Bild über meine Person und meine Kenntnisse machen.</p>
-							<p id="absatz-2">Eugenia (Jeny)</p>
+						<article class="artikel-2">
+							<ul id="ueber">
+								<li>-Beruf: Webworker</li>
+								<li>-Studium: B. Sc. in internationaler VWL</li>
+								<li>-Certified TYPO3 CMS Integrator</li>
+								<li>-Professional Scrum Master I</li>
+								<li>-innovativ, offen, optimistisch</li>
+								<li>-Interessen: meine Familie, Sport, Fotografie, die Alpen, lesen, Neues entdecken</li>
+							</ul>
 						</article>
 					</section>
 				</div>
 			</div>
-			<div id="footer" class="row">
+			<div id="footer-1" class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<footer class="unten">
 						<div id="footerinput">
@@ -74,7 +80,7 @@
 				$("#bestandteile").click(function () {
 				$('#bestandteile > li').slideToggle("slow, 300");
 			});
-			$.backstretch("../jenys_website/images/berg5.jpg");
+			$.backstretch("../../jenys_website/images/berg5.jpg");
 		</script>  
 	</body>
 </html>

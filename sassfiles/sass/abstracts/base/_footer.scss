@@ -1,0 +1,14 @@
+#footer, #footer-1{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0px;
+	background-color: $footer-background;
+	opacity: 0.5;
+}
+#footerinput{
+	font-family: $satisfy;
+	font-size: 15px;
+	color: $footer-font;
+	text-align: center;
+}

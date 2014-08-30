@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta lang="de" name="author" content="Eugenia">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="../bower_components/sass-bootstrap-compass/dist/css/sass-bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/fontawesome/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/lightbox/css/lightbox.css">
+		<link rel="stylesheet" type="text/css" href="../sassfiles/stylesheets/website.css">
+		<script type="text/javascript" src="../../jenys_website/bower_components/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../../jenys_website/bower_components/jquery-backstretch/jquery.backstretch.js"></script>
+		<script type="text/javascript" src="../../jenys_website/bower_components/lightbox/js/lightbox.js"></script>
+		<title>Willkommen!</title>
+	</head>
+	<body>
+		<div class="container">
+			<div id="header" class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<header class="oben">
+						<div id="spruch">
+							<p>"Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt."
+							<br /><span id="author">-Albert Einstein</span></p>
+						</div>
+					</header>
+				</div>
+			</div>
+			<div id="content" class="row">
+				<div id="navigation" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<section class="links">
+						<nav class="menu">
+							<ul id="bestandteile"><i class="fa fa-navicon fa-2x"></i>
+								<li class="active home" title="Home">
+									<a href="../index.html"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+								</li>
+								<li class="ueber" title="Über mich">
+									<a href="ueber_mich.html"><i class="fa fa-female fa-fw"></i>&nbsp; Über mich</a>
+								</li>
+								<li class="technologien" title="Technologien">
+									<a href="technologien.html"><i class="fa fa-cog fa-fw"></i>&nbsp; Technologien</a>
+								</li>
+								<li class="projekte" title="Projekte">
+									<a href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Projekte</a>
+								</li>
+								<li class="kontakt" title="Kontakt">
+									<a href="kontakt.html"><i class="fa fa-envelope fa-fw"></i>&nbsp; Kontakt</a>
+								</li>
+							</ul>
+						</nav>
+					</section>
+				</div>
+				<div id="inhaltwrapper" class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+					<section class="inhalt">
+						<header class="inhalt-header-1">
+							<p>Erklärung von Scrum in einem KMU</p>
+						</header>
+						<article class="artikel-1">
+							<ul class="images">
+								<li>
+									<a href="../images/lightbox/Roadmap.png" data-lightbox="scrum"><img src="../images/lightbox/thumb1.png"/></a>
+								</li>
+								<li>
+									<a href="../images/lightbox/Roadmap1.png" data-lightbox="scrum"><img src="../images/lightbox/thumb2.png"/></a>
+								</li>
+								<li>
+									<a href="../images/lightbox/Roadmap3.png" data-lightbox="scrum"><img src="../images/lightbox/thumb3.png"/></a>
+								</li>
+							</ul>
+							<div class="description">
+								<p>Scrum Prozesse</p>
+								<p>Rolle des Product Owners</p>
+								<p>Teambildung</p>
+								<p>Problemlösungen</p>
+							</div>
+						</article>
+					</section>
+				</div>
+			</div>
+			<div id="footer-1" class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<footer class="unten">
+						<div id="footerinput">
+							<p>© Copyright 2014 Eugenia Gebert</p>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<script>
+			$('#bestandteile > li').hide();
+				$("#bestandteile").click(function () {
+				$('#bestandteile > li').slideToggle("slow, 300");
+			});
+			$.backstretch("../../jenys_website/images/berg5.jpg");
+		</script>  
+	</body>
+</html>

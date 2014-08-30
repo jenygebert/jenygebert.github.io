@@ -1,0 +1,32 @@
+#navigation{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	width: 100%;
+	background-color: $nav-background;
+	opacity: 0.8;
+}
+#bestandteile{
+	margin-left: 20px;
+	margin-top: 0px;
+	
+	li{
+	list-style: none;
+	margin-left: -11px;
+	padding: 10px;
+	display: block;
+	
+	a{
+	font-family: $caption;
+	color: $nav-font;
+	text-decoration: none;
+}
+}
+}
+#bestandteile > li > a:hover{
+	background-color: $nav-hover;
+	text-decoration: none;
+	color: $nav-hover-font;
+	padding: 9px;
+}

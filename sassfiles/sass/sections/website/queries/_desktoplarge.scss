@@ -1,0 +1,58 @@
+@media only screen and(min-width: $break-desktoplarge){
+#spruch > p{
+	font-size: 45px;
+}
+#author{
+	font-size: 38px;
+}
+nav{
+	width: 60%;
+}
+li > a{
+	font-size: 20px;
+}
+#inhaltwrapper{
+	margin-top: 0px;
+	width: 60%;
+	float: left;
+}
+.inhalt-header{
+	font-size: 20px;
+}
+#absatz-1, #absatz-2{
+	font-size: 20px;
+}
+#footer-1{
+	position: relative;
+}
+#footerinput{
+	font-size: 38px;
+}
+
+/*UEBER MICH*/
+#portrait{
+	width: 30%;
+}
+#ueber > li{
+	font-size: 20px;
+	padding: 10px;
+}
+
+/*TECHNOLOGIEN*/
+.inhalt-header-1{
+	font-size: 22px;
+}
+#technologien-1 > li, #technologien-2 > li{
+	font-size: 20px;
+}
+
+/*PROJEKTE*/
+.description{
+	font-size: 20px;
+}
+
+/*KONTAKT*/
+#absatz-3{
+	font-size: 38px;
+}
+}

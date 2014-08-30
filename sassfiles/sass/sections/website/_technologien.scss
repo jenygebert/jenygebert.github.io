@@ -1,0 +1,8 @@
+#technologien-1 > li, #technologien-2 > li{
+	list-style: none;
+	font-family: $caption;
+	color: $content-font;
+	text-shadow: 1px 2px 2px #000;
+	padding: 4px 20px;
+	text-align: center;
+}

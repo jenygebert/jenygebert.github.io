@@ -1,0 +1,16 @@
+#header{
+	background-color: $header-background;
+	opacity: 0.5;
+	width: 100%;
+	margin: 0px;
+	padding: 10px;
+}
+#spruch > p{
+	font-family: $satisfy;
+	font-size: 22px;
+	color: $header-font;
+	text-align: center;
+}
+#author{
+	font-size: 15px;
+}
